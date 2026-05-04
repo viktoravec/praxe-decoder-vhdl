@@ -46,4 +46,5 @@ end architecture behavioral;
 
 fs.writeFileSync(`decoder_${inputValue}.vhd`, vhdl);
 
+
 console.log(`Soubor decoder_${inputValue} byl vygenerován (${bits} => ${inputValue} bitů)`);
